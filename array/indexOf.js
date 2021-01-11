@@ -1,6 +1,10 @@
+/* this is a function to find an idexOf of the word "karen".
+
+*/
 let names = ["robert", "angel", "karen"];
 
-let name = names.unshift("charlie");
+//this adds charlie to the front on the names array.
+let name = names.unshift("charlie"); 
 
 let findWord = function(strings){
 
@@ -14,6 +18,8 @@ return index;
 
 }
 
+// this prints the array to see what we have in the array.
+console.log(`these are the names in the array ${names}`);
 
-console.log(names);
-console.log(findWord(names));
+//this runs the function to find the indexOf karen in the array 
+console.log(`the index of kare is:${findWord(names)}`);

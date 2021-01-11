@@ -1,3 +1,6 @@
+/*using a traditional for loop to find the minimum number in an array.
+*/
+
 let numbers = [5, 10, 999, 0, -5];
 
 let numberMin = function(number){
@@ -12,3 +15,17 @@ let numberMin = function(number){
 }
 
 console.log(numberMin(numbers));
+
+
+// this is an easier way to find the minimum number of an array.
+
+/*
+let numbers = [0, 5, 10, 999, 987];
+
+let maxNumber = function(numbers){
+    let min = Math.min(...numbers);
+    return min;
+}
+
+console.log(maxNumber(numbers));
+*/

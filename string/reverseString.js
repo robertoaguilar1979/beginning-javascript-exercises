@@ -16,3 +16,15 @@
     console.log(reverseString("robert"));
 
 
+    // this is an easier way to reverse an string
+
+    /*
+let reverseString = function(name){
+    return name.split("").reverse().join("");
+}
+
+console.log(`this function reverses a string ${reverseString("robert")}`);
+
+    */
+
+

@@ -1,32 +1,37 @@
+/* this iterates through an array and  sums all the numbers up
+*/
+
 let numbers = [7, 3, 10, 7, 3];
 
-// using a triditional waw loop to find sum of array
+// using a triditional for loop to find sum of array
 
 let addNumbers = function(numbers){
-let sumNumbers = 0;
+    let sumNumbers = 0;
 
-for(let i =0; numbers.length > i; i++) {
+    for(let i =0; numbers.length > i; i++) {
 
     sumNumbers += numbers[i];
-}
-return sumNumbers;
+    }
+    return sumNumbers;
 }
 
 console.log(addNumbers(numbers));
 
 
-//another way to do sum of array using for `of loop
+/*another way to do sum of array using for of loop*/
 
-// let addNumbers = function(numbers){
-// let sumNumbers = 0;
+/*
+let addNumbers = function(numbers){
+    let sumNumbers = 0;
 
-// for(let number of numbers) {
+    for(let number of numbers) {
 
-//     sumNumbers += number;
+     sumNumbers += number;
 
-// }
-// return sumNumbers;
+    }
+    return sumNumbers;
 
-// }
+ }
 
-// console.log(addNumbers(numbers));
+ console.log(addNumbers(numbers));
+ */
