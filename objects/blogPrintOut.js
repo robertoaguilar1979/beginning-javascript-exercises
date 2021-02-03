@@ -16,7 +16,7 @@ let user = {
     logBlog() {
         console.log(`there are a total of ${this.blog.length} recent blogs`);
         this.blog.forEach(function (blog) {
-            console.log(`${blog.title} and ${blog.likes} likes`);
+            console.log(`title of blog: "${blog.title}" and it has ${blog.likes} likes.`);
         })
 
     }

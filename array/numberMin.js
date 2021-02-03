@@ -1,13 +1,13 @@
 /*using a traditional for loop to find the minimum number in an array.
-*/
+ */
 
-let numbers = [5, 10, 999, 0, -5];
+let numbers = [5, 10, 999, 0, -5, -10];
 
-let numberMin = function(number){
+let numberMin = function (number) {
     let min = Infinity;
-    
-    for(let i =0; i< number.length; i++) {
-        if(number[i] < min){
+
+    for (let i = 0; i < number.length; i++) {
+        if (number[i] < min) {
             min = number[i];
         }
     }

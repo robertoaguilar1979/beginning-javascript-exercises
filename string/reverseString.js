@@ -1,11 +1,10 @@
-    
     // using a for of loop to reverse a string
-    
-    let reverseString = function(string){
+
+    let reverseString = function (string) {
 
         let reversedString = "";
 
-        for(let char of string){
+        for (let char of string) {
             reversedString = char + reversedString;
         }
         return reversedString;
@@ -16,7 +15,7 @@
     console.log(reverseString("robert"));
 
 
-    // this is an easier way to reverse an string
+    // this is an easier way to reverse a string
 
     /*
 let reverseString = function(name){
@@ -26,5 +25,3 @@ let reverseString = function(name){
 console.log(`this function reverses a string ${reverseString("robert")}`);
 
     */
-
-
