@@ -6,15 +6,16 @@ let names = ["robert", "angel", "karen"];
 //this adds charlie to the front on the names array.
 let name = names.unshift("charlie");
 
+//this will return an index or an array and the element.
 let findWord = function (strings) {
 
     let index = strings.indexOf("karen");
-
+    let name = "";
     if (index > -1) {
 
-        strings.splice(index, 1);
+        name = strings.splice(index, 1);
     }
-    return index;
+    return `name: ${name} index: ${index}`;
 
 }
 
@@ -22,4 +23,4 @@ let findWord = function (strings) {
 console.log(`full array names: ${names}`);
 
 //this runs the function to find the indexOf karen in the array 
-console.log(`the index of karen is: ${findWord(names)}`);
+console.log(findWord(names));
