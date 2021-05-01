@@ -1,7 +1,7 @@
 /*using a traditional for loop to find the minimum number in an array.
  */
 
-let numbers = [5, 10, 999, 0, -5, -10];
+let numbers = [5, 10, 999, 0, -5, -10, -100];
 
 let numberMin = function (number) {
     let min = Infinity;
