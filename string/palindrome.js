@@ -2,10 +2,10 @@
 
 let isPalindrome = function (word) {
     let backwardWord = "";
-    for (let i = 0; i <= word.length - 1; i++) {
+    for (let i = 0; i < word.length; i++) {
         backwardWord = word[i] + backwardWord;
     }
-    return word.toLowerCase() === backwardWord.toLocaleLowerCase();
+    return word.toLowerCase() === backwardWord.toLowerCase();
 
 }
 
