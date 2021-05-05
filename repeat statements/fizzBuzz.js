@@ -9,7 +9,7 @@ for (let i = 1; i <= 100; i++) {
         string += "fizz";
     }
     if (i % 5 === 0) {
-        string += "buzz"
+        string += "buzz";
     }
     if (string === "") {
         string = i;
