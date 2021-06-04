@@ -10,7 +10,7 @@ let sumNumbers = function (numbers, target) {
         for (let j = i + 1; j < numbers.length; j++) {
             let secondNumber = numbers[j];
             if (firstNumber + secondNumber === target) {
-                return `index: ${[i]} with value: ${firstNumber} and index: ${[j]} with value: ${secondNumber}`;
+                return `index:${[i]} with value:${firstNumber} and index:${[j]} with value:${secondNumber} equals:${target}`;
             }
         }
     }
