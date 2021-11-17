@@ -1,3 +1,5 @@
+//updated find longest string
+
 let names = ["rob", "ana", "karen", "karen", "angel", "nami","zezezeze"];
 
 let findLongestString = function(array){
