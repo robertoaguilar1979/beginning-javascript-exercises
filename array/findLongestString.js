@@ -1,20 +1,22 @@
-//updated find longest string
+//print out 1 occuring longest string
 
-let names = ["rob", "ana", "karen", "karen", "angel", "nami","zezezeze"];
+let numbers = ["robert1", "robert2", "nami", "angel", "karen", "zooozooo1", "one", "zooozooo2"];
 
-let findLongestString = function(array){
-    let sortedArray = [];
-    let longestString = -Infinity;
+let sumArray = number => {
 
-    for(let i =0; i < array.length; i++){
-        if(array[i].length>=longestString){
-            sortedArray.push(array[i]);
-            longestString = array[i].length;
-        }
-    }
+    //sorts array from longest to shortest string
+    let sortedNumbers = number.sort(function (a, b) {
+        return b.length - a.length;
+    });
 
-    console.log(sortedArray);
+    //prints out sorted array
+    console.log(sortedNumbers);
+
+    let sortedNewArray = [...sortedNumbers];
+
+    //returns first occuring longest string
+    return sortedNewArray[0];
+
 }
 
-
-console.log(findLongestString(names));
+console.log(sumArray(numbers));
