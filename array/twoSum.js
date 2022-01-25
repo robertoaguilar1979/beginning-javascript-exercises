@@ -1,7 +1,7 @@
 //two sum find two numbers that add to the target number. 
 // the number can only be used once 
 
-let numbers = [1, 5, 9];
+let numbers = [1, 5, 10, 15, 9];
 let target = 10;
 
 let sumNumbers = function (numbers, target) {
