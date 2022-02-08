@@ -15,7 +15,7 @@ let twoSum = function (array, target) {
 
         }
         //this checks to see what numbers are being stored in the hash
-        console.log(iterator1.next().value);
+       // console.log(iterator1.next().value);
     }
 
 

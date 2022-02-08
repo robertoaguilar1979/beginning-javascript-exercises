@@ -12,7 +12,7 @@ let twoSum = function (array, target) {
         } else {
             hash[num] = i;
         }
-        console.log(Object.entries(hash));
+       // console.log(Object.entries(hash));
     }
 
 }
