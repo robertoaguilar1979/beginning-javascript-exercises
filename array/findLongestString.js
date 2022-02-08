@@ -13,7 +13,7 @@ let findLongestString = function(array){
         }
     }
 
-    console.log(sortedArray);
+    return sortedArray;
 }
 
 
