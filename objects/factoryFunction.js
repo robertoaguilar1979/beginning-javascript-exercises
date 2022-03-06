@@ -1,3 +1,5 @@
+//this is a factory function
+
 function createPerson(firstName, lastName, city, zipCode) {
   return {
     firstName,
