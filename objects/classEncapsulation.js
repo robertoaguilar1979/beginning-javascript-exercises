@@ -1,12 +1,17 @@
 //class encapsulation
 
 class Person {
-  #firstName = "john";
-  #lastName = "doe";
+  #firstName;
+  #lastName;
   #age;
   #weight;
 
-  constructor(firstName, lastName, age, weight) {
+  constructor(
+    firstName = "no first name",
+    lastName = "no last name",
+    age = 0,
+    weight = 0
+  ) {
     this.#firstName = firstName;
     this.#lastName = lastName;
     this.#age = age;
@@ -43,8 +48,14 @@ class Person {
 }
 
 let robert = new Person("robert", "aguilar", 42, 160);
+let angel = new Person("angel");
 
 console.log(robert.firstName);
 console.log(robert.lastName);
 console.log(robert.age);
 console.log(robert.weight);
+
+console.log(angel.firstName);
+console.log(angel.lastName);
+console.log(angel.age);
+console.log(angel.weight);
